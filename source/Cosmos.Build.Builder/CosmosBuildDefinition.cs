@@ -39,7 +39,7 @@ namespace Cosmos.Build.Builder
         {
             yield return new ReposDependency(_cosmosDir);
             yield return new VisualStudioDependency(_visualStudioInstance);
-            yield return new VisualStudioWorkloadsDependency(_visualStudioInstance);
+            // yield return new VisualStudioWorkloadsDependency(_visualStudioInstance);
             yield return new InnoSetupDependency(_innoSetupService);
         }
 
