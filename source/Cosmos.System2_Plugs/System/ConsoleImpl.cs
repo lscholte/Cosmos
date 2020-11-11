@@ -15,7 +15,7 @@ namespace Cosmos.System_Plugs.System
         private static Encoding ConsoleInputEncoding = Encoding.ASCII;
         private static Encoding ConsoleOutputEncoding = Encoding.ASCII;
 
-        private static readonly Cosmos.System.Console mFallbackConsole = new Cosmos.System.Console(null);
+        private static readonly Cosmos.System.Console mFallbackConsole = Cosmos.System.Global.Console;
 
         private static Cosmos.System.Console GetConsole()
         {
